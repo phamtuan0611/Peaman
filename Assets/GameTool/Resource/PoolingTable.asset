@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185c0691f8ed60c49ad96c06daa589ed, type: 3}
+  m_Name: PoolingTable
+  m_EditorClassIdentifier: 
+  Serializers:
+  - key: SmokeJump
+    ItemPooling:
+      listPooling:
+      - {fileID: 2366917613273224506, guid: 01ccbd73f42c25c4d9d81d550e25a0f7, type: 3}
+  - key: Coin
+    ItemPooling:
+      listPooling:
+      - {fileID: 3609340720079146931, guid: 75d8f9cf89adb834b91ffd522e8bf141, type: 3}
+  - key: Peanut
+    ItemPooling:
+      listPooling:
+      - {fileID: 731627250846179389, guid: 983f39e9a88737f4093e3d81a8b1f47e, type: 3}
+  - key: Bullet
+    ItemPooling:
+      listPooling:
+      - {fileID: 4360631322756601379, guid: ed965359ffd6f0c439f189207c61a7ce, type: 3}
+  - key: Fire
+    ItemPooling:
+      listPooling:
+      - {fileID: 6341258215630292412, guid: 2186e5da32882834382eb143abc66d4c, type: 3}
